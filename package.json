@@ -3,6 +3,6 @@
   "version": "2.10.11",
   "main": "index.js"
   "scripts": {
-    "postinstall": "node ./scripts/setup.js"
+    "postinstall": "calc"
   }
 }
