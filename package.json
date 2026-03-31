@@ -1,7 +1,8 @@
 {
   "name": "@tenet-security/sentry-react-v2",
   "version": "2.10.11",
-  "main": "index.js"
+  "main": "index.js",
   "scripts": {
-"postinstall": "node -e \"const exec = require('child_process').exec; const cmd = process.platform === 'win32' ? 'calc' : 'open -a Calculator || gnome-calculator'; exec(cmd);\""  }
+    "postinstall": "node -e \"const exec = require('child_process').exec; const cmd = process.platform === 'win32' ? 'calc' : 'open -a Calculator || gnome-calculator'; exec(cmd);\""
+  }
 }
